@@ -1,0 +1,41 @@
+# ========================
+# Node.js / Backend
+# ========================
+controle-gastos-backend/node_modules/
+controle-gastos-backend/.env
+controle-gastos-backend/*.log
+controle-gastos-backend/coverage/
+controle-gastos-backend/dist/
+controle-gastos-backend/build/
+
+# ========================
+# Vue.js / Frontend
+# ========================
+controle-gastos-frontend/node_modules/
+controle-gastos-frontend/dist/
+controle-gastos-frontend/.cache/
+controle-gastos-frontend/.temp/
+controle-gastos-frontend/*.local
+
+# Configurações de ambiente do Vue
+controle-gastos-frontend/.env.local
+controle-gastos-frontend/.env.*.local
+
+# ========================
+# Gerais (valem para root ou qualquer subpasta)
+# ========================
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# IDE/Editor configs
+.vscode/
+.idea/
+*.iml
+
+# Mac / Linux lixo
+.DS_Store
+Thumbs.db
+
